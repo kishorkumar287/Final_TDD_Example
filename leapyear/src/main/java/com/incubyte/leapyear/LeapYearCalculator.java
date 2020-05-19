@@ -19,6 +19,13 @@ public class LeapYearCalculator {
 	
 	}
 	
+	public boolean thirdCriteria(int date)
+	{
+		
+		
+		return false;
+	}
+	
 	
 	
 
