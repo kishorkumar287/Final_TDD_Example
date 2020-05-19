@@ -26,5 +26,11 @@ public class LeapYearTest {
 	{
 		assertEquals("third criteria : All years divisible by 4 but not by 100 ARE leap years", true, calc.thirdCriteria(2008) );
 	}
+	
+	@Test
+	public void testFourthCriteria()
+	{
+		assertEquals("fourth criteria : All years not divisible by 4 are NOT leap years", true, calc.fourthCriteria(2017) );
+	}
 
 }
