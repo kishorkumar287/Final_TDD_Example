@@ -29,7 +29,8 @@ public class LeapYearCalculator {
 	
 	public boolean fourthCriteria(int date)
 	{
-		
+		if(!(date % 4 != 0))
+			return true;
 		
 		return false;
 	}
